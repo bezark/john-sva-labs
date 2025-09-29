@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://ds8h6u2tqcxxn"]
+
+[ext_resource type="Texture2D" uid="uid://vmlmuauv2206" path="res://Assets/background_0.png" id="1_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://dmjic778cpegf" path="res://Assets/background_1.png" id="2_lquwl"]
+[ext_resource type="Texture2D" uid="uid://dvp743b7io3ms" path="res://Assets/icon.svg" id="3_7mycd"]
+[ext_resource type="PackedScene" uid="uid://bwlu647lmxbx5" path="res://elephant.tscn" id="4_1bvp3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background0" type="Sprite2D" parent="."]
+position = Vector2(506, 354)
+scale = Vector2(4.18889, 4.18889)
+texture = ExtResource("1_1bvp3")
+
+[node name="Background1" type="Sprite2D" parent="."]
+position = Vector2(589, 401)
+scale = Vector2(3.79444, 3.79444)
+texture = ExtResource("2_lquwl")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(856, 116)
+texture = ExtResource("3_7mycd")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(207, 418)
+texture = ExtResource("3_7mycd")
+
+[node name="Elephant" parent="." instance=ExtResource("4_1bvp3")]
+position = Vector2(1188, 82)
+
+[node name="Elephant2" parent="." instance=ExtResource("4_1bvp3")]
+position = Vector2(225, 44)

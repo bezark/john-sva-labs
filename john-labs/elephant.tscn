@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwlu647lmxbx5"]
+
+[ext_resource type="Texture2D" uid="uid://d0ddt7aaefuet" path="res://Assets/nmnh-cutout-template-henry-copy.png.webp" id="1_o1l07"]
+[ext_resource type="Texture2D" uid="uid://dvp743b7io3ms" path="res://Assets/icon.svg" id="2_5mgq6"]
+
+[node name="Elephant" type="Sprite2D"]
+modulate = Color(1, 0.411765, 1, 1)
+texture = ExtResource("1_o1l07")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(229, -171)
+texture = ExtResource("2_5mgq6")
